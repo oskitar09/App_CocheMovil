@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppCocheMovil</string>
+    <string name="user">Usuario</string>
+    <string name="txtPass">Contraseña</string>
+    <string name="edittext">EditText</string>
+    <string name="acceder">Acceder</string>
+    <string name="introduzcausu">Introduzca su usuario</string>
+    <string name="introduzcapass">Introduzca su contraseña</string>
+    <string name="seleccion">Seleccione su grado</string>
+    <string name="asignatura">Asignatura</string>
+    <string-array name="spinner">@array/spinner</string-array>
+</resources>

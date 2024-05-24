@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="spinner">
+        <item>DAM</item>
+        <item>DAW</item>
+        <item>ASIR</item>
+        <item>TAFAD</item>
+    </array>
+</resources>

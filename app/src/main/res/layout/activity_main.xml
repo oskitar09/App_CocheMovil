@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/user"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textIsSelectable="false"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:autofillHints=""
+        android:fontFamily="monospace"
+        android:hint="@string/introduzcausu"
+        android:inputType="text|textNoSuggestions"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#616161"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/txtPass"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passwd"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="@string/introduzcapass"
+        android:inputType="textPassword"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#616161"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/acceso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:saveEnabled="false"
+        android:text="@string/acceder"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

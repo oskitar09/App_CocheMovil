@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:textAlignment="center"
+    tools:context=".Seleccion_Grado">
+
+    <TextView
+        android:id="@+id/txtseleccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="@string/seleccion"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtasignatura"
+        android:layout_width="367dp"
+        android:layout_height="34dp"
+        android:fontFamily="monospace"
+        android:text="@string/asignatura"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="369dp"
+        android:layout_height="56dp"
+        android:background="@drawable/desplegable_off"
+        android:entries="@array/spinner"
+        android:gravity="center"
+        android:popupBackground="@color/spiner" />
+
+
+</LinearLayout>
